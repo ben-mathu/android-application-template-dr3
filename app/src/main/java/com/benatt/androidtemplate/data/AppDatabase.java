@@ -9,6 +9,6 @@ import com.benatt.androidtemplate.data.models.Example;
  * @author ben-mathu
  * @date 4/26/23
  */
-@Database(entities = {Example.class}, version = 1)
+@Database(entities = {Example.class}, version = 1, exportSchema = false)
 public abstract class AppDatabase extends RoomDatabase {
 }
